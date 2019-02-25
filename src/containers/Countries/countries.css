@@ -1,0 +1,27 @@
+.countries-container {
+  height: 90px;
+  overflow: auto;
+  border: .5px solid rgb(174, 174, 174);
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+.container {
+  max-height: 510px;
+  overflow: auto;
+  width: 20%;
+  border: .5px solid rgb(174, 174, 174);
+  position:absolute;
+
+}
+
+.country-info {
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+  width: 70%;
+  border: .5px solid rgb(174, 174, 174);
+  padding-top: 1rem;
+  left:238px;
+  position:absolute;
+  height: 500px;
+}
